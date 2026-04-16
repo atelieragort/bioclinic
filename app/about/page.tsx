@@ -75,7 +75,7 @@ export default function AboutPage() {
             </CardContent>
           </Card>
         </div>
-
+        
         {/* Team */}
         <div>
           <h2 className="text-2xl font-bold mb-8 text-white">Team</h2>
