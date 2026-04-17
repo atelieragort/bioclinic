@@ -70,6 +70,50 @@ export default function HowItWorksPage() {
           </div>
         </div>      
       </div>
+        {/* Benefits Section */}
+        <div>
+          <h2 className="text-2xl font-bold mb-8 text-white">Benefits</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="bg-gray-800/50 border-gray-700">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-4 text-white">Investors</h3>
+                <ul className="space-y-3 text-gray-400">
+                  <li className="flex items-center">
+                    <Coins className="h-5 w-5 text-[#3B82F6] mr-2" />
+                    Low minimum investment threshold
+                  </li>
+                  <li className="flex items-center">
+                    <Shield className="h-5 w-5 text-[#3B82F6] mr-2" />
+                    Direct property ownership rights
+                  </li>
+                  <li className="flex items-center">
+                    <Building2 className="h-5 w-5 text-[#3B82F6] mr-2" />
+                    Access to premium 
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-gray-800/50 border-gray-700">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-4 text-white">Platform Features</h3>
+                <ul className="space-y-3 text-gray-400">
+                  <li className="flex items-center">
+                    <Shield className="h-5 w-5 text-[#3B82F6] mr-2" />
+                    Secure blockchain records
+                  </li>
+                  <li className="flex items-center">
+                    <Users className="h-5 w-5 text-[#3B82F6] mr-2" />
+                    Automated distribution of rental income
+                  </li>
+                  <li className="flex items-center">
+                    <Building2 className="h-5 w-5 text-[#3B82F6] mr-2" />
+                    Professional property management
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>      
     </div>
   )
 } 
