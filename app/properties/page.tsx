@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/component/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import Link from 'next/link'
 import Image from 'next/image'
 import { properties } from '@/lib/properties-data'
