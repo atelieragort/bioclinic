@@ -5,7 +5,12 @@ import useEmblaCarousel from 'embla-carousel-react'
 import Image from 'next/image'
 import Autoplay from 'embla-carousel-autoplay'
 
-
+const images = [
+  "https://themes.muffingroup.com/be/clinic2/wp-content/uploads/2017/08/home_clinic2_treatment1.jpg",
+  "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h5u2oswh04yxn6yg9uxp.jpg",
+  "https://themes.muffingroup.com/be/clinic2/wp-content/uploads/2017/08/home_clinic2_treatment2.jpg",
+  "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v4amxqv4k1n7kvcldpdd.jpg",
+]
 export function HeroCarousel() {
   const [emblaRef] = useEmblaCarousel(
     { 
