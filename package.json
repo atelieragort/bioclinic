@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev\" \"wait-on http://localhost:3033 && open http://localhost:3033\"",
+    "dev": "concurrently \"next dev\" \"wait-on http://localhost:3000 && open http://localhost:3000\"",
     "lint": "next lint"
   },
   "dependencies": {
