@@ -69,7 +69,7 @@ export function PropertyDetail({ id }: PropertyDetailProps) {
               cryptoSymbol="ETH"
               cryptoPrice={2000}
             />
-
+    
             <Button className="w-full mt-6 bg-[#3B82F6] hover:bg-[#2563EB] text-white">
               Invest Now
             </Button>
