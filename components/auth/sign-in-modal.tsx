@@ -67,8 +67,11 @@ export function SignInModal({ isOpen, onClose }: SignInModalProps) {
                 className="bg-white/5 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-blue-500"
               />
             </div>
+            <Button className="w-full bg-[#3B82F6] hover:bg-[#2563EB] text-white">
+              Sign In
+            </Button> 
           </div>
-
+          
           <div className="text-center text-sm">
             <a href="#" className="text-[#3B82F6] hover:text-[#2563EB]">Forgot password?</a>
           </div>
