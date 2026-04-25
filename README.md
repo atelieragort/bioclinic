@@ -1,17 +1,51 @@
-## **Web3 Healthcare MVP version **  
+## BioClinic **
+
+A Web3-based healthcare prototype focused on patient-controlled data access.
+
 
 ### **Overview**  
-This project aims explore the healthcare by integrating blockchain technology, cryptocurrency, and NFTs into a user-friendly platform. It provides secure, transparent, and efficient solutions.  
 
----
+BioClinic explores how blockchain can enable patients to securely control access to their medical data.
 
+This repository contains a frontend prototype demonstrating:
 
-### **Technologies**  
-- **Blockchain**: Ethereum, Binance Smart Chain.  
-- **Frontend**: Next.js.  
-- **Backend**: Node.js.
-- **Database**: MongoDB for decentralized storage.  
-- **Wallet Integration**: MetaMask, Trust Wallet, and more.  
+- Wallet-based identity (mocked)
+- Patient consent flow
+- Access control simulation
+
+### Current Features
+
+- Mock wallet connection
+- Simulated transaction flow (grant access)
+- Clean UI built with Next.js
+
+### Next Steps
+- Integrate real wallet connection (Wagmi / RainbowKit)
+- Add signature-based authentication
+- Connect to smart contract for access control
+
+### Hiring Task
+
+We are looking for blockchain/frontend engineers.
+
+Task:
+Replace the mock wallet flow with a real Web3 implementation.
+
+Focus on:
+
+- wallet connection
+- network handling
+- UX quality
+
+### Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+
+### Status
+
+Early-stage prototype under active development.
 
 ---
 
@@ -32,10 +66,6 @@ This project aims explore the healthcare by integrating blockchain technology, c
    ```bash  
    npm run dev  
    ```  
-
-4. **Environment Configuration**:  
-   - Add your blockchain network details in `.env`.  
-   - Set API keys and wallet configurations.  
 
 ---
 
