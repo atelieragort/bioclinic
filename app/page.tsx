@@ -8,6 +8,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { HeroCarousel } from '@/components/hero-carousel'
 import { properties } from '@/lib/properties-data'
+import MockWallet from "@/components/MockWallet";
+import GrantAccess from "@/components/GrantAccess";
 
 export default function Page() {
   return (
@@ -39,6 +41,24 @@ export default function Page() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Web3 Access Section */}
+      <div className="bg-[#0B1120] py-12 border-t border-gray-800">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-2xl font-bold text-white">
+            Patient Data Access Control (Web3 Prototype)
+          </h2>
+          <p className="text-gray-400 mt-2">
+            Connect your wallet and grant secure access to your healthcare data.
+          </p>
+
+          <div className="mt-6 flex flex-col items-center gap-4">
+            {/* <div>Test</div> */}
+            <MockWallet />
+            <GrantAccess />
           </div>
         </div>
       </div>
