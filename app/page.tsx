@@ -30,7 +30,7 @@ export default function Page() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <Button size="lg" className="w-full bg-[#3B82F6] hover:bg-[#2563EB] text-white">
-                    Start Reasearching
+                    Explore Platform
                     <ChevronRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
