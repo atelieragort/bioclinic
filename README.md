@@ -1,4 +1,4 @@
-## BioClinic **
+## BioClinic 
 
 A Web3-based healthcare prototype focused on patient-controlled data access.
 
@@ -24,28 +24,46 @@ This repository contains a frontend prototype demonstrating:
 - Add signature-based authentication
 - Connect to smart contract for access control
 
-### Hiring Task
-
-We are looking for blockchain/frontend engineers.
-
-Task:
-Replace the mock wallet flow with a real Web3 implementation.
-
-Focus on:
-
-- wallet connection
-- network handling
-- UX quality
-
 ### Tech Stack
 
 - Next.js
 - TypeScript
 - Tailwind CSS
 
-### Status
+### Technical Task(for contributors)
 
-Early-stage prototype under active development.
+We are currently implementing Web3 features.
+
+- See Issue #1: replace mock wallet with real Web3 connection
+
+Contributors are welcome to pick this up.
+
+### For Candidates
+
+If you're interested in working with us:
+
+- Review the project and codebase
+- Check Issue #1 (Wallet Integration)
+- Submit a Pull Request with your implementation
+- We’ll review and discuss next steps
+
+This is a small technical evaluation task.
+Strong contributors may be invited for ongoing collaboration.
+
+### Note
+
+This is an early-stage prototype.
+
+The initial task is a short technical evaluation (2–4 hours).
+We are looking to continue with paid collaboration for strong candidates.
+
+### Vision
+
+We believe healthcare data should be owned by patients, not centralized systems.
+
+BioClinic explores how Web3 can enable secure, user-controlled access to medical data.
+
+
 
 ---
 
