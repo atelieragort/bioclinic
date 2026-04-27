@@ -21,7 +21,7 @@ export default function Page() {
           <div className="max-w-7xl mx-auto h-full flex items-center px-4 sm:px-6 lg:px-8">
             <div className="text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl lg:text-7xl">
-                <span className="block text-[#2B43F6]">Decentralized</span>
+                <span className="block text-[#2B43F6]">Web3</span>
                 <span className="block text-[#8B43F6]">Healthcare Platform</span>
               </h1>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
